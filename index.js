@@ -16,7 +16,7 @@ const moment = require('moment-timezone')
 const { exec } = require('child_process')
 const kagApi = require('@kagchi/kag-api')
 const fetch = require('node-fetch')
-const tiktod = require('tiktok-scraper')
+const tiktok  =  membutuhkan ( 'tiktok-scraper' )
 const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
 const lolis = require('lolis.life')
@@ -26,7 +26,7 @@ const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // OM JANGAN DI UBAH OM
             + 'VERSION:3.0\n' // INI WEEM RAMLAN GANS
-            + 'FN:RamlanGans\n' // UBAH INI
+            +  'FN: Jubilant2407 // UBAH INI
             + 'ORG:Owner BOT;\n' // UBAH INI
             + 'TEL;type=CELL;type=VOICE;waid=6285559240360:+62 855-5924-0360\n' // UBAH INI
             + 'END:VCARD' // WEEM DIHAPUS GUE BERHENTI UPDATE SCRIPT
